@@ -8,9 +8,9 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -36,4 +36,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp-item{
+    width: 40%;
+    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fullstack{
+    border-left: 7px solid tomato;
+}
+#babydev{
+    border-left: 7px solid blue;
+}
+footer p {
+    text-align: center;
 }
