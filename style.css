@@ -159,3 +159,41 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type='text'], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px ;
+    font-size: 16px;
+    color: #474747;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+}
+.social-links a{
+
+    margin-right: 25px;
+}
+.footer-title{
+    color:  #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-desc{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
