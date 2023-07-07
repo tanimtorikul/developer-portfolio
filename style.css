@@ -15,6 +15,14 @@
     font-weight: 700;
     padding: 18px 35px;
 }
+.btn-secondary{
+        background: #FFF8F3;
+        border-radius: 5px;
+        border: 1px solid #FD6E0A;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 18px 35px;
+    }
 .section-title{
     color:  #181818;
     text-align: center;
